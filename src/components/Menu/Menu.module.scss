@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+
+  &__lista {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__item {
+    list-style-type: none;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    color: #202020;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+
+    a {
+      text-decoration: none;
+      color: #202020;
+    }
+  }
+
+  &__divisoria {
+    margin: 0px 15px;
+  }
+}
