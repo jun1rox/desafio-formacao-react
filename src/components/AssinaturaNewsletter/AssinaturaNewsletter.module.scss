@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+.texto {
+
+  width: 40%;
+  line-height: 27px;
+  color: #202020;
+  padding: 214px 0px 37px 0px;
+
+  .titulo {
+    font-size: 22px;
+    opacity: 0.5;
+  }
+
+  .destaque {
+    font-family: 'Elsie Swash Caps';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 82px;
+    line-height: 94px;
+    opacity: 1;
+    padding: 12px 0px 24px 0px;
+  }
+
+  .subtitulo {
+    opacity: 0.5;
+    font-size: 16px;
+  }
+}
+
+.formulario {
+  display: flex;
+  height: 75px;
+
+  input {
+    width: 391px;
+    border-width: 0px;
+  }
+
+  button {
+    color: white;
+    width: 194px;
+    border-width: 0px;
+    background: #FFCB47;
+    box-shadow: 10px 10px 30px rgba(255, 203, 71, 0.3);
+  }
+}

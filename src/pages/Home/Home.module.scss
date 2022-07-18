@@ -1,6 +1,25 @@
+.container {
+  display: flex;
+  width: 1203px;
+  flex-direction: column;
+
+}
+
 .forma {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: -1;
+}
+
+.newsletter__container {
+  display: flex;
+  position: absolute;
+}
+
+.planta {
+  position: absolute;
+  left: 362px;
+  top: 0px;
   z-index: -1;
 }
